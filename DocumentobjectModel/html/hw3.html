@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1{
+            text-align: center;
+            position: relative;
+            right: 110px;
+
+        }
+        table{
+            border: 1px solid black;
+            position: absolute;
+            left: 330px;
+            top:120px
+        }
+        table,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        body{
+            background-color: aliceblue;
+        }
+        #submit
+        {
+            position: relative;
+            left: 500px;
+        }
+        #bck
+        {
+            position: absolute;
+            top: 30px;
+            left: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>PARKING SLOT</h1>
+  <div id="div1">
+    Customer name : <input type="text" id="cn">
+    <br>
+    <br>
+    Customer Bikeno. : <input type="text" id="cbno">
+    <br>
+    <br>
+    Checkin : <input type="text" id="cin">
+    <br>
+    <br>
+    CheckOut : <input type="text" id="co"><br><br>
+                         <input type="button" id="submit" value="submit"><br><br><br>
+
+  </div>
+    
+    <div id="div2">
+        <table id="table" contenteditable="true">
+            <thead>
+                <tr>
+                    <th>customer_name</th>
+                    <th>Customer_bikeno.</th>
+                    <th>CheckIn</th>
+                    <th>CheckOut</th>
+                </tr>
+            </thead >
+            <tbody id="tbody"></tbody>
+
+         </table>
+         <button id="bck">back to homepage</button>
+
+         <button id="edit" >edit</button>
+         <button id="update">update</button>
+
+    </div>        
+                        
+    
+    <script src="../javascript/scriptdom.js"></script>
+</body>
+</html>

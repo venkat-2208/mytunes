@@ -1,0 +1,90 @@
+#d1{
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 50vh;
+    width: 70vh;
+    position: absolute;
+    top: 190px;
+    left: 490px;
+    background-color: azure;
+    animation-name: ani;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+
+    
+}
+@keyframes ani 
+{
+    0%{
+        top: 690px;
+    }
+    100%
+    {
+        top:150px
+    }
+}
+#uname{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+#un{
+    position: absolute;
+    top: 100px;
+    left: 160px;
+}
+#pwd{
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+#up{
+    position: absolute;
+    top: 170px;
+    left: 160px;
+}
+#btn1
+{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+
+}
+#s1
+{
+    position: absolute;
+    top: 0px;
+    left: 70px;
+
+    border: 1px solid black;
+    height: 70px;
+    width: 150px;
+
+}
+#h1
+{
+    /* position: absolute;
+    top: 1px;
+    left: 50px; */
+    text-align: center;
+
+}
+#s2
+{
+    position: absolute;
+    top: 00px;
+    left: 220px;
+    border: 1px solid black;
+    height: 70px;
+    width: 150px;
+}
+#h2
+{
+    position: absolute;
+    top: 1px;
+    left: 35px;
+}
+

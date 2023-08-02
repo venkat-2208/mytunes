@@ -1,0 +1,194 @@
+body{
+    background-color: aquamarine;
+}
+h3{
+    position: absolute;
+    left: 250px;
+
+}
+#div1{
+    height: 390px;
+    width:650px;
+    border: 1px solid black;
+    position: absolute;
+    top: 130px;
+    left: 350px;
+    background-color:  bisque;
+    border-radius: 30px;
+
+}
+#fn{
+    position: absolute;
+    left: 180px;
+    top: 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#ps{
+    position: absolute;
+    left: 180px;
+    top: 190px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#ufname{
+    position: relative;
+    left: 260px;
+    top: 110px;
+}
+#pwd{
+    position: relative;
+    left: 80px;
+    top: 190px;
+}
+#btn{
+    position: absolute;
+    left: 280px;
+    top: 290px;
+}
+#hover1{
+    position: absolute;
+    top: 137px;
+    left: 270px;
+    /* border: 1px solid black; */
+    color: green;
+    /* display: none; */
+}
+#hover2
+{
+    position:relative;
+    top: 197px;
+    /* left: 270px; */
+    text-align: center;
+    color: green;
+    /* display: none; */
+}
+#signup
+{
+    /* border: 1px solid black; */
+    position: absolute;
+    top:300px;
+    left:170px;
+}
+#captcha
+{
+    position: absolute;
+    top: 240px;
+    left: 150px;
+}
+#check
+{
+    position: absolute;
+    top: 240px;
+    left: 260px;
+}
+#capcheck{
+    position: absolute;
+    top: 267px;
+    left: 290px;
+    color: green;
+   
+
+}
+/* ----------------------- */
+#div2
+{
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 60vh;
+    width: 80vh;
+    position: absolute;
+    top: 170px;
+    left: 400px;
+    display: none;
+    background-color: lightgoldenrodyellow;
+}
+#h2
+{
+    position: absolute;
+    left: 170px;
+}
+#l1
+{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+#l2
+{
+    position: absolute;
+    top: 120px;
+    left: 90px;
+}
+#l3
+{
+    position: absolute;
+    top: 170px;
+    left: 90px;
+}
+#l4
+{
+    position: absolute;
+    top: 230px;
+    left: 90px;
+}
+#i1
+{
+    position: absolute;
+    top: 70px;
+    left: 240px;
+}
+#hover3
+{
+    position: absolute;
+    top: 93px;
+    left: 270px;
+    color: green;
+
+}
+#i2
+{
+    position: absolute;
+    top: 120px;
+    left: 240px;
+}
+#i3
+{
+    position: absolute;
+    top: 170px;
+    left: 240px;
+}
+#hover4
+{
+    position: absolute;
+    top: 199px;
+    left: 270px;
+    color: green;
+
+}
+#i4
+{
+    position: absolute;
+    top: 230px;
+    left: 240px;
+}
+#hover5
+{
+    position: absolute;
+    top: 259px;
+    left: 270px;
+    color: green;
+
+}
+
+#s2{
+    position: absolute;
+    top: 295px;
+    left: 100px;
+}
+#f1
+{
+    position: absolute;
+    top: 310px;
+    left: 100px;
+
+}
